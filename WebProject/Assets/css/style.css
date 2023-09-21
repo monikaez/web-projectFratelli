@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(245, 244, 241);
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    /* background-color: white; */
+    width: 70%;
+    margin: auto;
+
+}
+
+.logo,
+nav {
+
+    display: inline-block;
+    text-align: justify;
+    vertical-align: middle;
+
+}
+
+.logo {
+    width: 25%;
+    padding: 10px 0px;
+}
+
+.logo img {
+    /* padding-left: 20px; */
+    height: 100px;
+    width: auto;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 35px;
+    color: red;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: rgb(104, 65, 65);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/pasta-dish.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-frateli {
+    margin-top: 50px;
+}
+
+.red-line {
+    width: 60%;
+    border: 1px solid red;
+
+}
+
+.img-frateli,
+.text-frateli {
+    padding: 50px 0px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: auto;
+}
+
+.img-frateli img {
+    width: 340px;
+    height: 380px;
+    border: 2px solid red;
+
+}
+
+.text-frateli {
+    padding: 5px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.text-frateli p {
+    color: rgb(65, 63, 63);
+    font-size: 16px;
+}
+
+.container h3 {
+    font-size: 24px;
+    color: rgb(36, 34, 34);
+    text-align: center;
+}
+
+.menu-items {
+    
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.menu-item {
+    display: inline-block; 
+    width: 23%;
+    margin: 5px;
+    padding-bottom: 20px;
+    background-color: rgb(245, 231, 231);
+
+    border: 1px solid rgb(228, 182, 182)
+}
+
+.menu-item img {
+    max-width: 85%;
+
+}
+
+.menu-item p {
+    text-align: center;
+    color: rgb(34, 33, 33);
+    margin-top: 5px;
+}
+
+
+
+.red-btn {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 5px 18px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50px;
+    transition: .3s;
+
+}
+.red-btn:hover{
+    background-color: rgb(240, 226, 226);
+    cursor: pointer;
+    color: red;
+}
+
+.delivery-items{
+    padding: 20px 0px;
+    /* margin: 10px; */
+}
+.delivery-item{
+    background-color: rgb(245, 243, 242);
+    width: 33%;
+    display: inline-block;
+    
+}
+.delivery-item h3{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(27, 26, 26);
+    text-transform: uppercase;
+}
+
+.delivery-item img{
+    width: 40px;
+    display: inline-block;
+}
+
+.delivery-item p{
+    width: 65%;
+    display: inline-block;
+    font-style: italic;
+    color: rgb(27, 26, 26);
+    font-size: 14px;
+    
+
+}
+.delivery-item p,.delivery-item img{
+    vertical-align: middle;
+}
+
+.container-contact{
+    /* display: inline-block; */
+    padding: 20px 0px;
+    width: 55%;
+    margin: auto;
+
+    
+}
+.container-contact h2{
+    font-size: 24px;
+    color: rgb(27, 26, 26);
+    text-align: center;
+    text-transform: uppercase;
+}
+#name,#phone,#email{
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 10px 0px;
+}
+#area{
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 20px;
+
+}
+.container-contact .red-btn{
+    padding: auto;
+    margin-left: 250px;
+}
+footer{
+    background-color: rgb(131, 129, 129);
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+}
+footer img{
+    height: 35px;
+    padding: 10px;
+}
